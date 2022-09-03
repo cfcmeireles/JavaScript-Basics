@@ -2,9 +2,8 @@
   "use strict";
 
   // Select converter form to add an event listener of type "submit" and create a function with an event
-  document
-    .getElementById("converter")
-    .addEventListener("submit", function (event) {
+  document.getElementById("converter").addEventListener("submit", function (event) {
+    
       event.preventDefault();
 
       // Get the value from length, parseFloat parses the argument and returns a floating point number
