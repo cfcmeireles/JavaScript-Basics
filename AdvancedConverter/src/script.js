@@ -26,7 +26,7 @@
     }
   });
 
-  form.addEventListener("submit", function (event) {
+  form.addEventListener("keyup", function (event) {
     event.preventDefault();
     const length = parseFloat(document.getElementById("length").value);
 
